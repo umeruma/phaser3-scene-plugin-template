@@ -1,0 +1,2 @@
+var t=function(t){function o(o,e){t.call(this,o,e),this.scene=o}return t&&(o.__proto__=t),(o.prototype=Object.create(t&&t.prototype)).constructor=o,o.prototype.boot=function(){var t=this.systems.events;t.on("start",this.start,this),t.once("destroy",this.destroy,this),console.log("BOOT")},o.prototype.start=function(){console.log("START")},o.prototype.destroy=function(){this.scene=void 0},o}(Phaser.Plugins.ScenePlugin);module.exports=t;
+//# sourceMappingURL=phaser3-scene-plugin-template.js.map
