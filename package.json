@@ -22,7 +22,8 @@
   "homepage": "https://github.com/umeruma/phaser3-scene-plugin-template#readme",
   "devDependencies": {
     "microbundle": "^0.11.0",
-    "phaser": "^3.18.1"
+    "phaser": "^3.18.1",
+    "braces": ">=2.3.1"
   },
   "dependencies": {}
 }
